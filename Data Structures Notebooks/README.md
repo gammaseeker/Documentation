@@ -4,13 +4,13 @@ These notebooks assume that you know how to code and have passed your introducti
 All implementations shown are in Java.
 The recommended sequence of topics are: <br>
 <ol>
-  <li>Big O Notation (1 day)</li>
-  <li>Linked Lists (1 day)</li>
-  <li>Stacks (1 day)</li>
-  <li>Queues (1 day)</li>
-  <li>Hash Tables (1 day)</li>
-  <li>Hash Maps (1 day)</li>
-  <li>Binary Search Trees (1 week)</li>
-  <li>AVL Trees (1 week)</li>
-  <li>Graphs (1 week)</li>
+  <li>Big O Notation </li>
+  <li>Linked Lists </li>
+  <li>Stacks </li>
+  <li>Queues </li>
+  <li>Hash Tables </li>
+  <li>Hash Maps </li>
+  <li>Binary Search Trees </li>
+  <li>AVL Trees </li>
+  <li>Graphs </li>
 </ol>
