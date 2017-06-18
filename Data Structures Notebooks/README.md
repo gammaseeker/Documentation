@@ -4,7 +4,7 @@ These notebooks assume that you know how to code and have passed your introducti
 All implementations shown are in Java.
 The recommended sequence of topics are: <br>
 <ol>
-  <li>Big O Notation (1 day) https://github.com/gammaseeker/Jupyter/blob/master/Algorithms%20Notebooks/Big-O-Notation.ipynb</li>
+  <li>Big O Notation (1 day)</li>
   <li>Linked Lists (1 day)</li>
   <li>Stacks (1 day)</li>
   <li>Queues (1 day)</li>
