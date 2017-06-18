@@ -4,10 +4,10 @@ These notebooks assume that you know how to code and have passed your introducti
 All implementations shown are in Java.
 The recommended sequence of topics are: <br>
 <ol>
-  <li>Big O Notation (1 day)</li>
-  <li>Search Algorithms (1 day)</li>
-  <li>Insertion and Selection Sort (1 day)</li>
-  <li>Recursion (1 week)</li>
-  <li>Merge Sort (1 week)</li>
-  <li>Quick Sort (1 week)</li>
+  <li>Big O Notation </li>
+  <li>Search Algorithms </li>
+  <li>Insertion and Selection Sort </li>
+  <li>Recursion </li>
+  <li>Merge Sort </li>
+  <li>Quick Sort </li>
 </ol>
