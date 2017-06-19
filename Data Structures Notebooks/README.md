@@ -11,7 +11,7 @@ The recommended sequence of topics are: <br>
   <li>Stacks </li>
   <li>Queues </li>
   <li>Hash Tables and Hash Maps</li>
-  <li>Binary Search Trees </li>
+  <li>Binary Trees </li>
   <li>AVL Trees </li>
   <li>Graphs </li>
 </ol>
