@@ -15,3 +15,5 @@ The recommended sequence of topics are: <br>
   <li>AVL Trees </li>
   <li>Graphs </li>
 </ol>
+Alternatively, you may follow this diagram for more flexibility:
+<img src = "Curriculum Diagram.jpg">
