@@ -13,8 +13,8 @@ The recommended sequence of topics are: <br>
   <li>Hash Tables and Hash Maps</li>
   <li>Binary Trees </li>
   <li>AVL Trees </li>
-  <li>Binary Search Trees </li>
-  <li>Graphs </li>
+  <li>Binary Search Trees</li>
+  <li>Graphs</li>
 </ol>
 Alternatively, you may follow this diagram for more flexibility:
 <img src = "https://github.com/gammaseeker/Jupyter/blob/master/Data%20Structures%20Notebooks/Diagram/CurriculmDiagram.png">
