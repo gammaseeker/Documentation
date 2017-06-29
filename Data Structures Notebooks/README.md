@@ -16,4 +16,4 @@ The recommended sequence of topics are: <br>
   <li>Graphs </li>
 </ol>
 Alternatively, you may follow this diagram for more flexibility:
-<img src = "Curriculum Diagram.jpg">
+<img src = "CurriculumDiagram.png">
