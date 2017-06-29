@@ -16,4 +16,4 @@ The recommended sequence of topics are: <br>
   <li>Graphs </li>
 </ol>
 Alternatively, you may follow this diagram for more flexibility:
-<img src = "CurriculumDiagram.png">
+<img src = "https://github.com/gammaseeker/Jupyter/blob/master/Data%20Structures%20Notebooks/Diagram/CurriculmDiagram.png">
