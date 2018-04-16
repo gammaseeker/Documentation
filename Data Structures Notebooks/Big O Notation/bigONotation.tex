@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tabu}
+\usepackage{setspace}
+\usepackage{listings}
+
+\title{Big O Notation}
+\author{Joey Jiemjitpolchai }
+\date{June 26, 2017}
+\newcommand{\bigO}{\mathcal{O}}
+
+\begin{document}
+
+    \maketitle
+
+    \section{Introduction}
+        Formally known as \textbf{Asymptotic Analysis}, the purpose of this topic is to define the mathematical boundation/framing of an algorithm's run-time performance. Through asymptotic analysis, we are able to determine the
+        \begin{itemize}
+          \item \textbf{Best Case ($\Omega$  Notation)}
+          \item \textbf{Average Case ($\Theta$ Notation)}
+          \item \textbf{Worst Case ($\bigO$ Notation)}
+        \end{itemize}
+        of an algorithm
+    \section{Execution Time Cases}
+        \textbf{Best Case - }Least possible execution time of operation.\newline
+        \textbf{Average Case - } Average execution of operations. If an operation take $f(n)$ time, then average case will take less than $f(n)$.\newline
+        \textbf{Worst Case - } Algorithm takes maximum time to execute, $f(n)$.\newline
+        
+        In the software industry, we are primarily concerned with the worst case, and occasionally the average case; however we will mostly study the worst case of any algorithm. Below is a reference to common run-time performances:
+        
+        \begin{tabu} to 0.8\textwidth { | X[l] | X[c] | }
+         \hline
+         Constant & $\bigO(1)$ \\
+         \hline
+         Logarithmic  & $\bigO(log n)$ \\
+        \hline
+        Linear  & $\bigO(n)$ \\
+        \hline
+        n log n  & $\bigO(n log n)$ \\
+        \hline
+        Quadratic  & $\bigO(n^2)$ \\
+        \hline
+        \end{tabu}
+    \newpage
+    \section{Determining Run-time}
+        \textbf{Assignment operations} always operate at $\bigO(1)$ time (pronounced as "order of one") because the computer just creates a variable that will point to some value.\newline
+        \begin{lstlisting}[language=Java]
+            int a = 5;
+            String s = "Hello";
+            String t = "World";
+        \end{lstlisting}
+        \textbf{Arithmetic operations} always operate at $\bigO(1)$ time (the reason why is a whole other topic).
+        \begin{lstlisting}[language=Java]
+            int a = 5;
+            int b = 7;
+            int c = b + a;
+            System.out.println(c - b * b/a);
+        \end{lstlisting}
+        \textbf{Iterations} such as a for looper operate at $\bigO(n)$ ("order of $n$") time because we are traversing through our data set $n$ times.
+        \begin{lstlisting}[language=Java]
+            for(int i = 0; i < n; i++){}
+        \end{lstlisting}
+        It should be noted that you can determine the run time of a for loop by its terminating condition $i < n$; The condition may not use $n$. For instance, $i < array.length;$ in this case the loop operates at $\bigO$($array.length$) time what ever that number may be. But we may let $n$ represent $array.length$, so it may be generalized as $\bigO$($n$).
+\end{document}
